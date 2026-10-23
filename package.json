@@ -1,0 +1,18 @@
+{
+  "name": "patterns-template-typescript",
+  "version": "1.0.0",
+  "description": "Design Patterns in TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "singleton": "tsx creational/singleton/Programm.ts",
+    "builder": "tsx creational/builder/Program.ts",
+    "factory": "tsx creational/factory/Program.ts",
+    "abstractfactory": "tsx creational/abstractfactory/ErpProject.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
