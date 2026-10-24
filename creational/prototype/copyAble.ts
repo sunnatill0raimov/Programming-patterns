@@ -1,5 +1,5 @@
-export interface Cloneable {
-    clone(): Object;
+export interface Copyable {
+    clone(): Copyable;
 }
 
-export default Cloneable;
+export default Copyable;
