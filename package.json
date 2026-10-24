@@ -8,7 +8,7 @@
     "singleton": "tsx creational/singleton/Programm.ts",
     "builder": "tsx creational/builder/Program.ts",
     "factory": "tsx creational/factory/Program.ts",
-    "abstractfactory": "tsx creational/abstractfactory/ErpProject.ts"
+    "abstractfactory": "tsx creational/abstractfactory/CafeProject.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
