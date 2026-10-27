@@ -77,24 +77,18 @@ export class ComputerDirector {
 	}
 }
 
-// ==========================================
-// 4. MAIN (Ishga tushirish)
-// ==========================================
 function main(): void {
 	const builder = new ComputerBuilder();
 	const director = new ComputerDirector();
 
-	// 1. Director orqali tayyor Gaming PC yig'ish:
 	const gamingPC = director.buildGamingPC(builder);
 	console.log("1. Gaming PC:");
 	console.log(gamingPC.toString());
 
-	// 2. Director orqali tayyor Office PC yig'ish:
 	const officePC = director.buildOfficePC(builder);
 	console.log("\n2. Office PC:");
 	console.log(officePC.toString());
 
-	// 3. Directordan foydalanmasdan, o'zimiz xohlagan maxsus (Custom) PC yig'ish:
 	const customPC = builder
 		.setCPU("AMD Ryzen 7 7800X3D")
 		.setRAM("64GB DDR5")
