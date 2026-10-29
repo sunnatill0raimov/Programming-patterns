@@ -1,5 +1,5 @@
 export interface Copyable {
-  clone(): Copyable;
+  clone(): Copyable
 }
 
-export default Copyable;
+export default Copyable
