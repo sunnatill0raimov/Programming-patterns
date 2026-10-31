@@ -12,7 +12,8 @@
     "prototype1": "tsx creational/prototype/tast1/gameRunner.ts",
     "prototype2": "tsx creational/prototype/task2/documentRunner.ts",
     "pcBuilder": "tsx creational/builder/pcBuilder.ts",
-    "adapter1" : "tsx creational/adapter/task1/NotificationManager.ts"
+    "adapter1": "tsx creational/adapter/task1/NotificationManager.ts",
+    "composite": "tsx creational/composite/fileSistem.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
