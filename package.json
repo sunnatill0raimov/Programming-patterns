@@ -11,7 +11,8 @@
     "abstractfactory": "tsx creational/abstractfactory/coffeeAbstractFactory.ts",
     "prototype1": "tsx creational/prototype/tast1/gameRunner.ts",
     "prototype2": "tsx creational/prototype/task2/documentRunner.ts",
-    "pcBuilder": "tsx creational/builder/pcBuilder.ts"
+    "pcBuilder": "tsx creational/builder/pcBuilder.ts",
+    "adapter1" : "tsx creational/adapter/task1/NotificationManager.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
