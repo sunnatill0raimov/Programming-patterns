@@ -15,7 +15,8 @@
     "adapter1": "tsx creational/adapter/task1/NotificationManager.ts",
     "composite": "tsx creational/composite/fileSistem.ts",
     "bridge": "tsx creational/brige/Game.ts",
-    "facade": "tsx creational/facade/task-1/Main.ts"
+    "facade": "tsx creational/facade/task-1/Main.ts",
+    "flyweight": "tsx creational/flyweight/main.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
