@@ -5,19 +5,20 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "singleton": "tsx creational/singleton/Programm.ts",
+    "singleton": "tsx creational/singleton/Database.ts",
     "builder": "tsx creational/builder/Program.ts",
     "factory": "tsx creational/factory/Program.ts",
     "abstractfactory": "tsx creational/abstractfactory/coffeeAbstractFactory.ts",
     "prototype1": "tsx creational/prototype/tast1/gameRunner.ts",
     "prototype2": "tsx creational/prototype/task2/documentRunner.ts",
     "pcBuilder": "tsx creational/builder/pcBuilder.ts",
-    "adapter1": "tsx creational/adapter/task1/NotificationManager.ts",
-    "composite": "tsx creational/composite/fileSistem.ts",
-    "bridge": "tsx creational/brige/Game.ts",
-    "facade": "tsx creational/facade/task-1/Main.ts",
-    "flyweight": "tsx creational/flyweight/main.ts",
-    "proxy": "tsx creational/proxy/BankApp.ts"
+    "adapter1": "tsx structural/adapter/task1/NotificationManager.ts",
+    "composite": "tsx structural/composite/fileSistem.ts",
+    "bridge": "tsx structural/bridge/Game.ts",
+    "facade": "tsx structural/facade/task-1/Main.ts",
+    "flyweight": "tsx structural/flyweight/main.ts",
+    "proxy": "tsx structural/proxy/BankApp.ts",
+    "decorator": "tsx structural/decorator/Order.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
